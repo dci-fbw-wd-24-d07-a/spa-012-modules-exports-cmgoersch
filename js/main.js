@@ -1,4 +1,4 @@
-import { init } from "./init.js";
+import init from "./init.js";
 
-// Initialize the elements
-init();
+// hier
+  init();

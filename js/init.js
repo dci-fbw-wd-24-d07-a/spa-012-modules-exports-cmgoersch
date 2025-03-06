@@ -1,10 +1,10 @@
 import { day, month, year } from "./elements.js";
-import update from "./updater.js";
+import { update } from "./updater.js"; 
 
-function init() {
+export default function init() {
   // Initialize input default values
   const now = new Date();
-  day.value = now.getDay();
+  day.value = now.getDay(); 
   month.value = now.getMonth() + 1;
   year.value = now.getUTCFullYear();
 
@@ -16,5 +16,3 @@ function init() {
   // Update the output box
   update();
 }
-
-// ???
